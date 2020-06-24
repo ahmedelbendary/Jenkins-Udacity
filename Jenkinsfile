@@ -31,8 +31,8 @@ pipeline {
         // some block
         sh 'aws s3 ls '
         sh 'echo "Create bucket" '
-        sh 'aws s3 mb s3://udacityprojectthree --region us-west-2'
-        sh 'aws s3 cp index.html s3://udacityprojectthree '  
+        sh 'aws s3 mb s3://udacity-project-three --region us-west-2'
+        sh 'aws s3 cp index.html s3://udacity-project-three '  
         sh 'echo "Uploading content with AWS creds"'
         
       }
